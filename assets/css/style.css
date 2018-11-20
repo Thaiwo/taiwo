@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /*overflow: -moz-scrollbars-vertical;
+  overflow-y: hidden;*/
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff!important;
+}
+.navbar-toggle .fa-navicon {
+  color: #555;
+  font-size: 18px;
+}
+.jumbotron {
+  background-color: #f6665c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  .jumbotron img {
+    width: 180px;
+    height: 180px;
+  }
+  /*nav + .container-fluid div {
+    top: 35%!important;
+    left: 20%!important;
+  }*/
+  nav + .container-fluid div h1 {
+    font-size: 40px!important;
+  }
+  nav + .container-fluid {
+    /*background: url(image_assets/maxresdefault.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+  }
+  nav + .container-fluid button {
+    font-size: 12px!important;
+    width: 30%!important;
+    /*left: 10%;
+    right: 10%;*/
+  }
+  nav + .container-fluid img {
+    height: 500px!important;
+  }
+}
+@media (max-width: 320px) {
+  footer div {
+    float: none;
+    text-align: center;
+  }
+}
+nav {
+  background-color: #f44336!important;
+  border: 3px solid #f44336!important;
+}
+.navbar-nav li a {
+  color: #fff!important;
+  font-size: 18px;
+}
+nav + .container-fluid {
+  font-family:Consolas,"courier new";
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*nav + .container-fluid:first-child {
+  background: url(image_assets/maxresdefault2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+nav + .container-fluid img {
+  opacity: 0.4;
+}
+nav + .container-fluid div {
+  position: absolute;
+  top: 40%;
+  bottom: 60%;
+  left: 30%;
+  right: 30%;
+  color: #888;
+  /*display: block;*/
+  /*margin-top: -500px;*/
+}
+nav + .container-fluid div h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  /*margin: 0;*/
+}
+nav + .container-fluid div p {
+  font-size: 20px;
+
+}
+nav + .container-fluid button {
+  position: absolute;
+  bottom: 25%;
+  /*margin-left: 45%;
+  margin-right: 45%;*/
+  padding: 15px 15px;
+  width: 200px;
+  background-color: #f14544!important;
+  color: #fff!important;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+nav + .container-fluid a {
+  position: absolute;
+  bottom: 12%;
+  /*right: 50%;*/
+  /*margin-left: 50%;
+  margin-right: 50%;*/
+  border-radius: 50%;
+}
+nav + .container-fluid a i {
+  font-size: 400%;
+  color: #000;
+  opacity: 0.5;
+}
+.container-fluid .row {
+  margin-bottom: 100px;
+  /*margin-top: 400px;*/
+  /*display: none;*/
+  transition: all ease 0.8s;
+}
+.container-fluid .row:hover {
+  display: block;
+}
+.container-fluid h2,
+.container-fluid h2 ~ div,
+.container-fluid div[class=col-md-5] {
+  display: block;
+}
+.container-fluid h2 {
+  text-transform: uppercase;
+  font-family: Consolas,"courier new";
+  padding-bottom: 10px;
+  padding-left: 80px;
+}
+.container-fluid h2 + div {
+  text-align: justify;
+  padding-left: 40px;
+  border-left: 5px solid #8d1007;
+  margin-left: 30px;
+}
+.container-fluid h2 ~ div:last-child {
+  margin-top: 3%;
+  font-family: Consolas,"courier new";
+}
+.container-fluid h2 ~ div:last-child button {
+  display: inline;
+  width: 200px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 4px solid #f44336;
+}
+.container-fluid h2 ~ div:last-child button:first-child {
+  margin-left: 25%;
+  background-color: #f44336;
+  color: #fff;
+}
+.container-fluid h2 ~ div:last-child button:last-child {
+  margin-left: 2%;
+  color: #f44336;
+  background-color: #fff;
+}
+.container-fluid div[class=col-md-5] > div:last-child {
+  margin-top: 3%;
+}
+.container-fluid div[class=col-md-5] > div:last-child a {
+  font-size: 150%;
+  color: #000;
+  border-radius: 50%;
+  margin-left: 90%;
+}
+/*.container-fluid .row ~ div:last-child {
+  padding-right: 0!important;
+  border: 1px solid #000;
+}*/
+footer {
+  background-color: #8d1007;
+  border: 1px solid #8d1007;
+  padding: 15px;
+  color: #eeeeee;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+#footer-left {
+  float: left;
+}
+#footer-right {
+  float: right;
+}
